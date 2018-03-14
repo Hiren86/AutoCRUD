@@ -1,0 +1,20 @@
+{
+    "name": "hirenmangukiya/autocrud",
+    "description": "Generate CRUD code for given database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hiren Mangukiya",
+            "email": "hirenmangukiya86@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+        "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Hiren\\Autocrud\\": "/src"
+        }
+    }
+}
