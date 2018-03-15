@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Cache;
 class DisplayDataController extends Controller
 {
 
-    public function __construct()
-    {
-       $this->middleware('auth', ['except' => ['multiTables','generateTable','commonFields','storeCommon','createExtraFields','sortTableFields','createMultiTableView']]);
-    }
+    //public function __construct()
+    //{
+       //$this->middleware('auth', ['except' => ['multiTables','generateTable','commonFields','storeCommon','createExtraFields','sortTableFields','createMultiTableView']]);
+    //}
 
 
     public function multiTables()
