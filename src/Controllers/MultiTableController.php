@@ -17,10 +17,10 @@ use Illuminate\Support\Facades\Schema;
 class MultiTableController extends Controller
 {
 
-    public function __construct()
-    {
-       $this->middleware('auth', ['except' => ['index','generateTable','commonFields','mStoreCommon','mRemoveDuplicateAndSort','mformFields','mCreateFormFields','mDesignForm','mCreateLayout','mGenerateView','generateController']]);
-    }
+    //public function __construct()
+    //{
+       //$this->middleware('auth', ['except' => ['index','generateTable','commonFields','mStoreCommon','mRemoveDuplicateAndSort','mformFields','mCreateFormFields','mDesignForm','mCreateLayout','mGenerateView','generateController']]);
+    //}
 
     // dispay view of tables selection for multiple table CRUD
     public function index()
