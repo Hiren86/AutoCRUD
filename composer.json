@@ -1,5 +1,5 @@
 {
-    "name": "hirenmangukiya/autocrud",
+    "name": "hiren86/autocrud",
     "description": "Generate CRUD code for given database",
     "type": "library",
     "license": "MIT",
