@@ -14,7 +14,7 @@
         "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Hiren\\Autocrud\\": "/src"
+            "Hiren\\Autocrud\\": "src/"
         }
     }
 }
