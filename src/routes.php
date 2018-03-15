@@ -1,5 +1,10 @@
 <?php
 
+//page not found
+Route::get('/404', function () {
+    return abort(404);
+});
+
 //create single table CRUD
 Route::get('/selectTable','Hiren\Autocrud\Controllers\SingleTableController@selectTable');
 Route::get('createView','Hiren\Autocrud\Controllers\SingleTableController@createView');
