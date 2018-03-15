@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Schema;
 class SingleTableController extends Controller
 {
     
-    public function __construct()
-    {
-       $this->middleware('auth', ['except' => ['createView','selectTable','pageLayout','createLayout','createFormField','designForm','getFormFields','updateForm','generateView','generateController','getColsList','getJoinFields','sortTableFields']]);
-    }
+    //public function __construct()
+    //{
+       //$this->middleware('auth', ['except' => ['createView','selectTable','pageLayout','createLayout','createFormField','designForm','getFormFields','updateForm','generateView','generateController','getColsList','getJoinFields','sortTableFields']]);
+    //}
 
 
     public function createView(Request $request){
