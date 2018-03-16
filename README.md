@@ -16,3 +16,10 @@ AutoCRUD is laravel libraby which helps you to create CRUD operation using your 
 
 
 ## INSTALLATION
+
+1. Go to the root directory of your project and run below command in your composer
+````
+composer require hirenmangukiya/autocrud:dev-master
+````
+
+2. 
