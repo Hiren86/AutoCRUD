@@ -1,4 +1,3 @@
-# AutoCRUD
 <p align="center"><img src="http://zuzootech.com/logo.png"></p>
 
 <p align="center">
