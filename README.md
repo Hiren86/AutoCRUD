@@ -17,9 +17,24 @@ AutoCRUD is laravel libraby which helps you to create CRUD operation using your 
 
 ## INSTALLATION
 
-1. Go to the root directory of your project and run below command in your composer
+1. Go to the root directory of your project and run below command in your console.
 ````
 composer require hirenmangukiya/autocrud:dev-master
 ````
 
-2. 
+2. Add the below line in your main `composer.json` file under the `autoload -> psr4`
+````
+"Hiren\\Autocrud\\": "vendor/hirenmangukiya/autocrud/src"
+````
+
+3. Autoload the composer 
+````
+composer dump-autoload
+````
+
+4. Add the providers in your project under the `config -> app.php -> providers` 
+````
+Hiren\Autocrud\AutocrudServiceProvider::class,
+````
+
+5. 
