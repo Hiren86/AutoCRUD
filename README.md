@@ -37,4 +37,18 @@ composer dump-autoload
 Hiren\Autocrud\AutocrudServiceProvider::class,
 ````
 
-5. 
+5. Copy all the assets into public directory of your project
+````
+php artisan vendor:publish --tag=public --force
+````
+
+6. Final step, * make sure that your project has connected with the database *
+````
+php artisan migrate
+````
+Here you setup all the things and it's ready to build your webapp.
+
+
+## LICENCE
+
+This project is register under the [MIT] [https://packagist.org/packages/hirenmangukiya/autocrud]
