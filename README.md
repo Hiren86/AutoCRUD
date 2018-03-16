@@ -51,4 +51,4 @@ Here you setup all the things and it's ready to build your webapp.
 
 ## LICENCE
 
-This project is register under the [MIT] (https://packagist.org/packages/hirenmangukiya/autocrud)
+This project is register under the [MIT](https://packagist.org/packages/hirenmangukiya/autocrud)
