@@ -21,7 +21,7 @@ class SingleTableController extends Controller
     
     public function home()
     {
-        return view('autocrud::Admin.Single_table.home');
+        return view('autocrud::Admin.home');
     }
 
     public function createView(Request $request){
