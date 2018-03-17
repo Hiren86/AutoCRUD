@@ -6,6 +6,7 @@ Route::get('/404', function () {
 });
 
 //create single table CRUD
+Route::get('autoHome','Hiren\Autocrud\Controllers\SingleTableController@home');
 Route::get('selectTable','Hiren\Autocrud\Controllers\SingleTableController@selectTable');
 Route::get('createView','Hiren\Autocrud\Controllers\SingleTableController@createView');
 Route::get('pageLayout','Hiren\Autocrud\Controllers\SingleTableController@pageLayout');
