@@ -18,7 +18,11 @@ class SingleTableController extends Controller
     //{
        //$this->middleware('auth', ['except' => ['createView','selectTable','pageLayout','createLayout','createFormField','designForm','getFormFields','updateForm','generateView','generateController','getColsList','getJoinFields','sortTableFields']]);
     //}
-
+    
+    public function home()
+    {
+        return view('autocrud::Admin.Single_table.home');   
+    }
 
     public function createView(Request $request){
         try
