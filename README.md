@@ -7,7 +7,7 @@
 #### Laravel AutoCRUD, Make a Web Application Just In Minutes, With having a basic knowledge of Laravel.
 
 ## INTRODUCTION
-AutoCRUD is laravel libraby which helps you to create CRUD operation using your **Database**. It also gives you an options for the form design. You can create CRUD for multiple tables. Display the data from multiple table with the search and pagination optoins and you can also add dynamic fields in a table.
+AutoCRUD is laravel libraby which helps you to create CRUD operation using your **Database**. It also gives you an options for the form design. You can create CRUD for multiple tables. Display the data from multiple table with the search and pagination optoins and you can also add dynamic fields in a table. It also manage all the `routes` it self, and generate code in separate directory for each controller's view.
 
 
 ## REQUIREMENTS
