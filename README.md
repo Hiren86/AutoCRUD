@@ -42,7 +42,7 @@ Hiren\Autocrud\AutocrudServiceProvider::class,
 php artisan vendor:publish --tag=public --force
 ````
 
-6. Final step, * make sure that your project has connected with the database *
+6. Final step, **make sure that your project has connected with the database**
 ````
 php artisan migrate
 ````
