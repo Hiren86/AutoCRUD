@@ -22,6 +22,7 @@ class AutocrudServiceProvider extends ServiceProvider
         //copy js, css, img to public directory
         $this->publishes([
             __DIR__.'/autocrud' => public_path('autocrud'),
+            __DIR__.'/models' => public_path('../app'),
         ], 'public');
 
         //add migration files 
