@@ -92,6 +92,42 @@ class MultiTableController extends Controller
     {
         $n = $request->no_of_table;
         $fields_array = array_chunk($request->cmn , $n);
+        $refno = Cache::get('refno');
+
+        //remove old data
+        DB::table('common_fields')
+            ->where('refid',$refno)
+            ->delete();
+
+        //store common fields as per user input
+        foreach($fields_array as $fields)
+        {
+            $comman_field =  new CommonField();
+            $flg = 0;
+            foreach($fields as $field)
+            {
+                if($field)
+                {
+                    if($flg == 0)
+                    {
+                        $field = explode("~",$field);
+                        $comman_field->refid = $refno;
+                        $comman_field->table1 = $field[0];
+                        $comman_field->field1 = $field[1];
+                        $flg = 1;
+                    }
+                    else
+                    {
+                        $field = explode("~",$field);
+                        $comman_field->table2 = $field[0];
+                        $comman_field->field2 = $field[1];
+                    }
+                }
+            }
+            $comman_field->save();
+        }
+
+        return redirect()->route('mRemoveDuplicateAndSort');
     }
 
     public function mRemoveDuplicateAndSort()
