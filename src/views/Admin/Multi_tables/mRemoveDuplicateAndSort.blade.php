@@ -73,7 +73,7 @@
 @endsection
 
 @section('custom-js')
-    <script src="{{ asset('js/jquery-ui.js') }}"></script>
+    <script src="{{ asset('autocrud/js/jquery-ui.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function(){
             var tblname = "";
