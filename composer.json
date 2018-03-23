@@ -20,7 +20,7 @@
         "retrieve",
         "update",
         "delete",
-        "read",
+        "read"
     ],
     "authors": [
         {
