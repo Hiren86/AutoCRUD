@@ -64,8 +64,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="http://autocrud.accurateweb.in/">Documentation</a>
+                    <a href="https://github.com/Hiren86/AutoCRUD">GitHub</a>
                 </div>
             </div>
         </div>
