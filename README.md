@@ -54,3 +54,7 @@ Get full [documentation](http://autocrud.accurateweb.in/ "AutoCRUD full document
 ## LICENCE
 
 This project is register under the [MIT](https://packagist.org/packages/hirenmangukiya/autocrud)
+
+
+## ----------------------------------------------------------------------------------------------
+**LOOKING FOR GOOD OPPORTUNITY** **HIRE ME** hirenmangukiya86@gmail.com
